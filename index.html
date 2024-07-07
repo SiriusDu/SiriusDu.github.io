@@ -3,14 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My Homepage</title>
+    <title>Raphael Du - Personal Homepage</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
-        h1 { color: #333; }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .contact-info, .education, .experience, .skills {
+            margin-bottom: 20px;
+        }
+        .contact-info p, .education p, .experience p, .skills p {
+            margin: 5px 0;
+        }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Homepage</h1>
-    <p>Hello! This is my personal homepage hosted on GitHub Pages.</p>
+    <div class="container">
+        <h1>Raphael Du</h1>
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Phone (China):</strong> 152-6700-8827</p>
+            <p><strong>Phone (US):</strong> 917-891-7886</p>
+            <p><strong>Email (China):</strong> <a href="mailto:dusicen@foxmail.com">dusicen@foxmail.com</a></p>
+            <p><strong>Email (US):</strong> <a href="mailto:sicendu@umich.edu">sicendu@umich.edu</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/raphaeldu/">https://www.linkedin.com/in/raphaeldu/</a></p>
+        </div>
+        
+        <div class="education">
+            <h2>Education</h2>
+            <h3>University of Michigan, Ann Arbor, MI, USA</h3>
+            <p>Ph.D. Candidate in Materials Science and Engineering & Scientific Computing (2017.9 - 2023.4)</p>
+            <p>M.S. in Materials Science and Engineering (GPA: 3.98/4.00)</p>
+            
+            <h3>Columbia University, New York, NY, USA</h3>
+            <p>M.S. in Materials Science and Engineering (GPA: 4.03/4.00)</p>
+            
+            <h3>Zhejiang University, Hangzhou, China</h3>
+            <p>B.S. in Materials Science and Engineering (GPA: 3.85/4.00)</p>
+        </div>
+
+        <div class="experience">
+            <h2>Experience</h2>
+            <h3>Meritco Group, NLP Algorithm Engineer (2023.9 - Present)</h3>
+            <ul>
+                <li>Customized business requirements: Fine-tuned pre-trained language models with domain-specific data to meet specific business scenarios accurately.</li>
+                <li>Integrated and innovated across tasks: Combined large language models with NLP tasks such as text classification and sentiment analysis, solving multiple departmental business challenges innovatively.</li>
+                <li>Algorithm development and engineering application: Developed and implemented an efficient large-scale text clustering algorithm, significantly improving the efficiency of data analysis for communication and PR teams.</li>
+            </ul>
+            
+            <h3>University of Michigan, Researcher (2017.9 - 2023.4)</h3>
+            <ul>
+                <li>Used computer modeling techniques to study electrochemical phenomena such as corrosion, lithium-ion batteries, and oxide fuel cells.</li>
+                <li>Developed an algorithm to automatically measure dihedral angles from complex 3D microstructure data.</li>
+                <li>Applied unsupervised machine learning algorithms and Fourier filtering techniques to accurately phase-segment FIB-SEM images of LSCF cathodes.</li>
+                <li>Presented at multiple international conferences and published several papers with over 300 citations according to Google Scholar.</li>
+            </ul>
+        </div>
+
+        <div class="skills">
+            <h2>Skills</h2>
+            <p>Python, Natural Language Processing, Machine Learning, Algorithms, Large Language Models</p>
+            <p>Certificates: Deep Learning Specialization (deeplearning.ai), Natural Language Processing Specialization (deeplearning.ai)</p>
+        </div>
+    </div>
 </body>
 </html>
